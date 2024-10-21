@@ -3,8 +3,7 @@ param (
 )
 
 if (-not $commitMessage) {
-    Write-Host "Error: Commit message is required."
-    Write-Host "Usage: ./git_script.ps1 'your commit message'"
+    Write-Host "Commit message is required"
     exit 1
 }
 
