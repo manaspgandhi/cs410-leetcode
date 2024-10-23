@@ -1,0 +1,1610 @@
+[
+    {
+        "title": "Array",
+        "examples": [],
+        "explanation": "",
+        "constraints": []
+    },
+    {
+        "title": "Two Sum",
+        "examples": [
+            {
+                "input": "nums = [2,7,11,15], target = 9",
+                "output": "[0,1]"
+            },
+            {
+                "input": "nums = [3,2,4], target = 6",
+                "output": "[1,2]"
+            },
+            {
+                "input": "nums = [3,3], target = 6",
+                "output": "[0,1]"
+            }
+        ],
+        "explanation": "",
+        "constraints": "Constraints: 2 <= nums.length <= 104 -109 <= nums[i] <= 109 -109 <= target <= 109 Only one valid answer exists.\u2022 \u2022 \u2022 \u2022"
+    },
+    {
+        "title": "Follow-up: Can you come up with an algorithm that is less than O(n2)\u00a0time complexity?",
+        "examples": [],
+        "explanation": "",
+        "constraints": []
+    },
+    {
+        "title": "Best Time to Buy and Sell Stock",
+        "examples": [
+            {
+                "input": "prices = [7,1,5,3,6,4]",
+                "output": "5"
+            },
+            {
+                "input": "prices = [7,6,4,3,1]",
+                "output": "0"
+            }
+        ],
+        "explanation": "In this case, no transactions are done and the max profit = 0.",
+        "constraints": "Constraints: 1 <= prices.length <= 105 0 <= prices[i] <= 104\u2022 \u2022"
+    },
+    {
+        "title": "Contains Duplicate",
+        "examples": [
+            {
+                "input": "nums = [1,2,3,1]",
+                "output": "true"
+            },
+            {
+                "input": "nums = [1,2,3,4]",
+                "output": "false"
+            },
+            {
+                "input": "nums = [1,1,1,3,3,4,3,2,4,2]",
+                "output": "true"
+            }
+        ],
+        "explanation": "",
+        "constraints": "Constraints: 1 <= nums.length <= 105 -109 <= nums[i] <= 109\u2022 \u2022"
+    },
+    {
+        "title": "Product of Array Except Self",
+        "examples": [
+            {
+                "input": "nums = [1,2,3,4]",
+                "output": "[24,12,8,6]"
+            },
+            {
+                "input": "nums = [-1,1,0,-3,3]",
+                "output": "[0,0,9,0,0]"
+            }
+        ],
+        "explanation": "",
+        "constraints": "Constraints: 2 <= nums.length <= 105 -30 <= nums[i] <= 30 The product of any prefix or suffix of nums is guaranteed  to fit in a 32-bit  integer.  Follow up:  Can you solve the problem in O(1)\u00a0extra space complexity? (The output array does not  count as extra space for space complexity analysis.)\u2022 \u2022 \u2022"
+    },
+    {
+        "title": "Maximum Subarray",
+        "examples": [
+            {
+                "input": "nums = [-2,1,-3,4,-1,2,1,-5,4]",
+                "output": "6"
+            },
+            {
+                "input": "nums = [1]",
+                "output": "1"
+            },
+            {
+                "input": "nums = [5,4,-1,7,8]",
+                "output": "23"
+            }
+        ],
+        "explanation": "[4,-1,2,1] has the largest sum = 6.",
+        "constraints": "Constraints: 1 <= nums.length <= 3 * 104 -105 <= nums[i] <= 105  Follow up:  If you have figured out the O(n) solution, try coding another solution using the divide and conquer  approach, which is more subtle.\u2022 \u2022"
+    },
+    {
+        "title": "Maximum Product Subarray",
+        "examples": [
+            {
+                "input": "nums = [2,3,-2,4]",
+                "output": "6"
+            },
+            {
+                "input": "nums = [-2,0,-1]",
+                "output": "0"
+            }
+        ],
+        "explanation": "The result cannot be 2, because [-2,-1] is not a subarray.",
+        "constraints": "Constraints: 1 <= nums.length <= 2 * 104 -10 <= nums[i] <= 10 The product of any prefix or suffix of nums is guaranteed  to fit in a 32-bit  integer.\u2022 \u2022 \u2022"
+    },
+    {
+        "title": "Find Minimum in Rotated Sorted Array",
+        "examples": [
+            {
+                "input": "nums = [3,4,5,1,2]",
+                "output": "1"
+            },
+            {
+                "input": "nums = [4,5,6,7,0,1,2]",
+                "output": "0"
+            },
+            {
+                "input": "nums = [11,13,15,17]",
+                "output": "11"
+            }
+        ],
+        "explanation": "The original array was [11,13,15,17] and it was rotated 4 times.",
+        "constraints": []
+    },
+    {
+        "title": "Constraints:",
+        "examples": [],
+        "explanation": "",
+        "constraints": "Constraints: n == nums.length 1 <= n <= 5000 -5000 <= nums[i] <= 5000 All the integers of nums are unique . nums is sorted and rotated between 1 and n times.\u2022 \u2022 \u2022 \u2022 \u2022"
+    },
+    {
+        "title": "Search in Rotated Sorted Array",
+        "examples": [
+            {
+                "input": "nums = [4,5,6,7,0,1,2], target = 0",
+                "output": "4"
+            },
+            {
+                "input": "nums = [4,5,6,7,0,1,2], target = 3",
+                "output": "-1"
+            },
+            {
+                "input": "nums = [1], target = 0",
+                "output": "-1"
+            }
+        ],
+        "explanation": "",
+        "constraints": "Constraints: 1 <= nums.length <= 5000 -104 <= nums[i] <= 104 All values of nums are unique .\u2022 \u2022 \u2022"
+    },
+    {
+        "title": "nums is guaranteed to be rotated at some pivot.",
+        "examples": [],
+        "explanation": "",
+        "constraints": []
+    },
+    {
+        "title": "3Sum",
+        "examples": [
+            {
+                "input": "nums = [-1,0,1,2,-1,-4]",
+                "output": "[[-1,-1,2],[-1,0,1]]"
+            },
+            {
+                "input": "nums = []",
+                "output": "[]"
+            },
+            {
+                "input": "nums = [0]",
+                "output": "[]"
+            }
+        ],
+        "explanation": "",
+        "constraints": "Constraints: 0 <= nums.length <= 3000 -105 <= nums[i] <= 105\u2022 \u2022"
+    },
+    {
+        "title": "Container With Most Water",
+        "examples": [
+            {
+                "input": null,
+                "output": null
+            },
+            {
+                "input": null,
+                "output": null
+            }
+        ],
+        "explanation": "The above vertical lines are represented by array [1,8,6,2,5,4,8,3,7]. In this",
+        "constraints": []
+    },
+    {
+        "title": "Input: height = [1,1]",
+        "examples": [
+            {
+                "input": "height = [4,3,2,1,4]",
+                "output": "16"
+            },
+            {
+                "input": "height = [1,2,1]",
+                "output": "2"
+            }
+        ],
+        "explanation": "",
+        "constraints": "Constraints: n == height.length 2 <= n <= 105 0 <= height[i] <= 104\u2022 \u2022 \u2022"
+    },
+    {
+        "title": "Binary",
+        "examples": [],
+        "explanation": "",
+        "constraints": []
+    },
+    {
+        "title": "Sum of Two Integers",
+        "examples": [
+            {
+                "input": "a = 1, b = 2",
+                "output": "3"
+            },
+            {
+                "input": "a = 2, b = 3",
+                "output": "5"
+            }
+        ],
+        "explanation": "",
+        "constraints": "Constraints: -1000 <= a, b <= 1000\u2022"
+    },
+    {
+        "title": "Number of 1 Bits",
+        "examples": [
+            {
+                "input": "n = 00000000000000000000000000001011",
+                "output": "3"
+            },
+            {
+                "input": "n = 00000000000000000000000010000000",
+                "output": "1"
+            },
+            {
+                "input": "n = 11111111111111111111111111111101",
+                "output": "31"
+            }
+        ],
+        "explanation": "The input binary string 11111111111111111111111111111101  has a total of thirty",
+        "constraints": []
+    },
+    {
+        "title": "Constraints:",
+        "examples": [],
+        "explanation": "",
+        "constraints": "Constraints: The input must be a binary string  of length 32.  Follow up:  If this function is called many times, how would you optimize it?\u2022"
+    },
+    {
+        "title": "Counting Bits",
+        "examples": [
+            {
+                "input": "n = 2",
+                "output": "[0,1,1]"
+            },
+            {
+                "input": "n = 5",
+                "output": "[0,1,1,2,1,2]"
+            }
+        ],
+        "explanation": "",
+        "constraints": "Constraints: 0 <= n <= 105 \u2022"
+    },
+    {
+        "title": "Follow up:",
+        "examples": [],
+        "explanation": "",
+        "constraints": []
+    },
+    {
+        "title": "Missing Number",
+        "examples": [
+            {
+                "input": "nums = [3,0,1]",
+                "output": "2"
+            },
+            {
+                "input": "nums = [0,1]",
+                "output": "2"
+            },
+            {
+                "input": "nums = [9,6,4,2,3,5,7,0,1]",
+                "output": "8"
+            },
+            {
+                "input": "nums = [0]",
+                "output": "1"
+            }
+        ],
+        "explanation": "",
+        "constraints": []
+    },
+    {
+        "title": "Constraints:",
+        "examples": [],
+        "explanation": "",
+        "constraints": "Constraints: n == nums.length 1 <= n <= 104 0 <= nums[i] <= n All the numbers of nums are unique .\u2022 \u2022 \u2022 \u2022"
+    },
+    {
+        "title": "Reverse Bits",
+        "examples": [
+            {
+                "input": "n = 00000010100101000001111010011100",
+                "output": "964176192 (00111001011110000010100101000000)"
+            },
+            {
+                "input": "n = 11111111111111111111111111111101",
+                "output": "3221225471 (10111111111111111111111111111111)"
+            }
+        ],
+        "explanation": "The input binary string 11111111111111111111111111111101  represents the",
+        "constraints": []
+    },
+    {
+        "title": "Constraints:",
+        "examples": [],
+        "explanation": "",
+        "constraints": "Constraints: The input must be a binary string  of length 32 \u2022"
+    },
+    {
+        "title": "Dynamic Programming",
+        "examples": [],
+        "explanation": "",
+        "constraints": []
+    },
+    {
+        "title": "Climbing Stairs",
+        "examples": [
+            {
+                "input": "n = 2",
+                "output": "2"
+            },
+            {
+                "input": "n = 3",
+                "output": "3"
+            }
+        ],
+        "explanation": "There are three ways to climb to the top.",
+        "constraints": "Constraints: 1 <= n <= 45\u2022"
+    },
+    {
+        "title": "Coin Change",
+        "examples": [
+            {
+                "input": "coins = [1,2,5], amount = 11",
+                "output": "3"
+            },
+            {
+                "input": "coins = [2], amount = 3",
+                "output": "-1"
+            },
+            {
+                "input": "coins = [1], amount = 0",
+                "output": "0"
+            },
+            {
+                "input": "coins = [1], amount = 1",
+                "output": "1"
+            },
+            {
+                "input": null,
+                "output": null
+            }
+        ],
+        "explanation": "11 = 5 + 5 + 1",
+        "constraints": []
+    },
+    {
+        "title": "Input: coins = [1], amount = 2",
+        "examples": [],
+        "explanation": "",
+        "constraints": "Constraints: 1 <= coins.length <= 12 1 <= coins[i] <= 231 - 1 0 <= amount <= 104\u2022 \u2022 \u2022"
+    },
+    {
+        "title": "Longest Increasing Subsequence",
+        "examples": [
+            {
+                "input": "nums = [10,9,2,5,3,7,101,18]",
+                "output": "4"
+            },
+            {
+                "input": "nums = [0,1,0,3,2,3]",
+                "output": "4"
+            },
+            {
+                "input": "nums = [7,7,7,7,7,7,7]",
+                "output": "1"
+            }
+        ],
+        "explanation": "The longest increasing subsequence is [2,3,7,101], therefore the length is 4.",
+        "constraints": "Constraints: 1 <= nums.length <= 2500 -104 <= nums[i] <= 104  Follow up:  Can you come up with an algorithm that runs in O(n log(n))  time complexity?\u2022 \u2022"
+    },
+    {
+        "title": "Longest Common Subsequence",
+        "examples": [
+            {
+                "input": "text1 = \"abcde\", text2 = \"ace\"",
+                "output": "3"
+            },
+            {
+                "input": "text1 = \"abc\", text2 = \"abc\"",
+                "output": "3"
+            },
+            {
+                "input": "text1 = \"abc\", text2 = \"def\"",
+                "output": "0"
+            }
+        ],
+        "explanation": "There is no such common subsequence, so the result is 0.",
+        "constraints": []
+    },
+    {
+        "title": "Constraints:",
+        "examples": [],
+        "explanation": "",
+        "constraints": "Constraints: 1 <= text1.length, text2.length <= 1000 text1 and text2 consist of only lowercase English characters.\u2022 \u2022"
+    },
+    {
+        "title": "Word Break",
+        "examples": [
+            {
+                "input": "s = \"leetcode\", wordDict = [\"leet\",\"code\"]",
+                "output": "true"
+            },
+            {
+                "input": "s = \"applepenapple\", wordDict = [\"apple\",\"pen\"]",
+                "output": "true"
+            },
+            {
+                "input": "s = \"catsandog\", wordDict = [\"cats\",\"dog\",\"sand\",\"and\",\"cat\"]",
+                "output": "false"
+            }
+        ],
+        "explanation": "Return true because \"applepenapple\" can be segmented as \"apple pen apple\".",
+        "constraints": "Constraints: 1 <= s.length <= 300 1 <= wordDict.length <= 1000 1 <= wordDict[i].length <= 20 s and wordDict[i]  consist of only lowercase English letters. All the strings of wordDict  are unique .\u2022 \u2022 \u2022 \u2022 \u2022"
+    },
+    {
+        "title": "Combination Sum IV",
+        "examples": [
+            {
+                "input": "nums = [1,2,3], target = 4",
+                "output": "7"
+            },
+            {
+                "input": "nums = [9], target = 3",
+                "output": "0"
+            }
+        ],
+        "explanation": "",
+        "constraints": "Constraints: 1 <= nums.length <= 200 1 <= nums[i] <= 1000 All the elements of nums are unique .\u2022 \u2022 \u2022"
+    },
+    {
+        "title": "1 <= target <= 1000",
+        "examples": [],
+        "explanation": "",
+        "constraints": []
+    },
+    {
+        "title": "House Robber",
+        "examples": [
+            {
+                "input": "nums = [1,2,3,1]",
+                "output": "4"
+            },
+            {
+                "input": "nums = [2,7,9,3,1]",
+                "output": "12"
+            }
+        ],
+        "explanation": "Rob house 1 (money = 2), rob house 3 (money = 9) and rob house 5 (money = 1).",
+        "constraints": "Constraints: 1 <= nums.length <= 100 0 <= nums[i] <= 400\u2022 \u2022"
+    },
+    {
+        "title": "House Robber II",
+        "examples": [
+            {
+                "input": "nums = [2,3,2]",
+                "output": "3"
+            },
+            {
+                "input": "nums = [1,2,3,1]",
+                "output": "4"
+            },
+            {
+                "input": "nums = [1,2,3]",
+                "output": "3"
+            }
+        ],
+        "explanation": "Rob house 1 (money = 1) and then rob house 3 (money = 3).",
+        "constraints": "Constraints: 1 <= nums.length <= 100 0 <= nums[i] <= 1000\u2022 \u2022"
+    },
+    {
+        "title": "Decode Ways",
+        "examples": [
+            {
+                "input": "s = \"12\"",
+                "output": "2"
+            },
+            {
+                "input": "s = \"226\"",
+                "output": "3"
+            },
+            {
+                "input": null,
+                "output": null
+            }
+        ],
+        "explanation": "\"226\" could be decoded as \"BZ\" (2 26), \"VF\" (22 6), or \"BBF\" (2 2 6).",
+        "constraints": []
+    },
+    {
+        "title": "Input: s = \"0\"",
+        "examples": [
+            {
+                "input": "s = \"06\"",
+                "output": "0"
+            }
+        ],
+        "explanation": "\"06\" cannot be mapped to \"F\" because of the leading zero (\"6\" is different",
+        "constraints": "Constraints: 1 <= s.length <= 100 s contains only digits and may contain leading zero(s).\u2022 \u2022"
+    },
+    {
+        "title": "Unique Paths",
+        "examples": [
+            {
+                "input": null,
+                "output": null
+            },
+            {
+                "input": "m = 3, n = 2",
+                "output": "3"
+            }
+        ],
+        "explanation": "",
+        "constraints": []
+    },
+    {
+        "title": "2. Down -> Down -> Right",
+        "examples": [
+            {
+                "input": "m = 7, n = 3",
+                "output": "28"
+            },
+            {
+                "input": "m = 3, n = 3",
+                "output": "6"
+            }
+        ],
+        "explanation": "",
+        "constraints": "Constraints: 1 <= m, n <= 100 It's guaranteed that the answer will be less than or equal to 2 * 109.\u2022 \u2022"
+    },
+    {
+        "title": "Jump Game",
+        "examples": [
+            {
+                "input": "nums = [2,3,1,1,4]",
+                "output": "true"
+            },
+            {
+                "input": "nums = [3,2,1,0,4]",
+                "output": "false"
+            }
+        ],
+        "explanation": "You will always arrive at index 3 no matter what. Its maximum jump length is",
+        "constraints": "Constraints: 1 <= nums.length <= 104 0 <= nums[i] <= 105\u2022 \u2022"
+    },
+    {
+        "title": "Graph",
+        "examples": [],
+        "explanation": "",
+        "constraints": []
+    },
+    {
+        "title": "Clone Graph",
+        "examples": [
+            {
+                "input": null,
+                "output": null
+            }
+        ],
+        "explanation": "",
+        "constraints": []
+    },
+    {
+        "title": "Input: adjList = [[2,4],[1,3],[2,4],[1,3]]",
+        "examples": [],
+        "explanation": "There are 4 nodes in the graph.",
+        "constraints": []
+    },
+    {
+        "title": "3rd node (val = 3)'s neighbors are 2nd node (val = 2) and 4th node (val = 4).",
+        "examples": [
+            {
+                "input": null,
+                "output": null
+            },
+            {
+                "input": "adjList = []",
+                "output": "[]"
+            },
+            {
+                "input": null,
+                "output": null
+            }
+        ],
+        "explanation": "This an empty graph, it does not have any nodes.",
+        "constraints": []
+    },
+    {
+        "title": "Input: adjList = [[2],[1]]",
+        "examples": [],
+        "explanation": "",
+        "constraints": "Constraints: The number of nodes in the graph is in the range [0, 100] . 1 <= Node.val <= 100 Node.val  is unique for each node. There are no repeated edges and no self-loops in the graph. The Graph is connected and all nodes can be visited starting from the given node.\u2022 \u2022 \u2022 \u2022 \u2022"
+    },
+    {
+        "title": "Course Schedule",
+        "examples": [
+            {
+                "input": "numCourses = 2, prerequisites = [[1,0]]",
+                "output": "true"
+            },
+            {
+                "input": "numCourses = 2, prerequisites = [[1,0],[0,1]]",
+                "output": "false"
+            }
+        ],
+        "explanation": "There are a total of 2 courses to take.",
+        "constraints": "Constraints: 1 <= numCourses <= 105 0 <= prerequisites.length <= 5000 prerequisites[i].length == 2 0 <= ai, bi < numCourses All the pairs prerequisites[i] are unique .\u2022 \u2022 \u2022 \u2022 \u2022 \u2022"
+    },
+    {
+        "title": "Pacific Atlantic Water Flow",
+        "examples": [
+            {
+                "input": null,
+                "output": null
+            }
+        ],
+        "explanation": "",
+        "constraints": []
+    },
+    {
+        "title": "Input: heights = [[1,2,2,3,5],[3,2,3,4,4],[2,4,5,3,1],[6,7,1,4,5],[5,1,1,2,4]]",
+        "examples": [
+            {
+                "input": null,
+                "output": null
+            }
+        ],
+        "explanation": "",
+        "constraints": []
+    },
+    {
+        "title": "Input: heights = [[2,1],[1,2]]",
+        "examples": [],
+        "explanation": "",
+        "constraints": "Constraints: m == heights.length n == heights[r].length 1 <= m, n <= 200 0 <= heights[r][c] <= 105\u2022 \u2022 \u2022 \u2022"
+    },
+    {
+        "title": "Number of Islands",
+        "examples": [
+            {
+                "input": "grid = [",
+                "output": null
+            },
+            {
+                "input": "grid = [",
+                "output": null
+            }
+        ],
+        "explanation": "",
+        "constraints": "Constraints: m == grid.length n == grid[i].length 1 <= m, n <= 300\u2022 \u2022 \u2022"
+    },
+    {
+        "title": "grid[i][j]  is '0' or '1'. \u2022",
+        "examples": [],
+        "explanation": "",
+        "constraints": []
+    },
+    {
+        "title": "Longest Consecutive Sequence",
+        "examples": [
+            {
+                "input": "nums = [100,4,200,1,3,2]",
+                "output": "4"
+            },
+            {
+                "input": "nums = [0,3,7,2,5,8,4,6,0,1]",
+                "output": "9"
+            }
+        ],
+        "explanation": "The longest consecutive elements sequence is [1, 2, 3, 4] . Therefore its",
+        "constraints": "Constraints: 0 <= nums.length <= 105 -109 <= nums[i] <= 109\u2022 \u2022"
+    },
+    {
+        "title": "Alien Dictionary",
+        "examples": [],
+        "explanation": "",
+        "constraints": []
+    },
+    {
+        "title": "Insert Interval",
+        "examples": [
+            {
+                "input": "intervals = [[1,3],[6,9]], newInterval = [2,5]",
+                "output": "[[1,5],[6,9]]"
+            },
+            {
+                "input": "intervals = [[1,2],[3,5],[6,7],[8,10],[12,16]], newInterval = [4,8]",
+                "output": "[[1,2],[3,10],[12,16]]"
+            },
+            {
+                "input": "intervals = [], newInterval = [5,7]",
+                "output": "[[5,7]]"
+            },
+            {
+                "input": "intervals = [[1,5]], newInterval = [2,3]",
+                "output": "[[1,5]]"
+            },
+            {
+                "input": null,
+                "output": null
+            }
+        ],
+        "explanation": "Because the new interval [4,8] overlaps with [3,5],[6,7],[8,10] .",
+        "constraints": []
+    },
+    {
+        "title": "Input: intervals = [[1,5]], newInterval = [2,7]",
+        "examples": [],
+        "explanation": "",
+        "constraints": "Constraints: 0 <= intervals.length <= 104 intervals[i].length == 2 0 <= starti <= endi <= 105 intervals  is sorted by starti in ascending  order. newInterval.length == 2 0 <= start <= end <= 105\u2022 \u2022 \u2022 \u2022 \u2022 \u2022"
+    },
+    {
+        "title": "Merge Intervals",
+        "examples": [
+            {
+                "input": "intervals = [[1,3],[2,6],[8,10],[15,18]]",
+                "output": "[[1,6],[8,10],[15,18]]"
+            },
+            {
+                "input": "intervals = [[1,4],[4,5]]",
+                "output": "[[1,5]]"
+            }
+        ],
+        "explanation": "Intervals [1,4] and [4,5] are considered overlapping.",
+        "constraints": "Constraints: 1 <= intervals.length <= 104 intervals[i].length == 2 0 <= starti <= endi <= 104\u2022 \u2022 \u2022"
+    },
+    {
+        "title": "Non-overlapping Intervals",
+        "examples": [
+            {
+                "input": "intervals = [[1,2],[2,3],[3,4],[1,3]]",
+                "output": "1"
+            },
+            {
+                "input": "intervals = [[1,2],[1,2],[1,2]]",
+                "output": "2"
+            },
+            {
+                "input": "intervals = [[1,2],[2,3]]",
+                "output": "0"
+            }
+        ],
+        "explanation": "You don't need to remove any of the intervals since they're already non-",
+        "constraints": "Constraints: 1 <= intervals.length <= 105 intervals[i].length == 2 -5 * 104 <= starti < endi <= 5 * 104\u2022 \u2022 \u2022"
+    },
+    {
+        "title": "Meeting Rooms",
+        "examples": [],
+        "explanation": "",
+        "constraints": []
+    },
+    {
+        "title": "Reverse Linked List",
+        "examples": [
+            {
+                "input": null,
+                "output": null
+            },
+            {
+                "input": "head = [1,2]",
+                "output": "[2,1]"
+            },
+            {
+                "input": "head = []",
+                "output": "[]"
+            }
+        ],
+        "explanation": "",
+        "constraints": []
+    },
+    {
+        "title": "Constraints:",
+        "examples": [],
+        "explanation": "",
+        "constraints": "Constraints: The number of nodes in the list is the range [0, 5000] . -5000 <= Node.val <= 5000  Follow up:  A linked list can be reversed either iteratively or recursively. Could you implement both?\u2022 \u2022"
+    },
+    {
+        "title": "Linked List Cycle",
+        "examples": [
+            {
+                "input": null,
+                "output": null
+            },
+            {
+                "input": null,
+                "output": null
+            }
+        ],
+        "explanation": "There is a cycle in the linked list, where the tail connects to the 1st node",
+        "constraints": []
+    },
+    {
+        "title": "Input: head = [1,2], pos = 0",
+        "examples": [
+            {
+                "input": null,
+                "output": null
+            }
+        ],
+        "explanation": "There is no cycle in the linked list.",
+        "constraints": "Constraints: The number of the nodes in the list is in the range [0, 104]. -105 <= Node.val <= 105 pos is -1 or a valid index  in the linked-list.  Follow up:  Can you solve it using O(1) (i.e. constant) memory?\u2022 \u2022 \u2022"
+    },
+    {
+        "title": "Merge Two Sorted Lists",
+        "examples": [
+            {
+                "input": null,
+                "output": null
+            },
+            {
+                "input": "l1 = [], l2 = []",
+                "output": "[]"
+            },
+            {
+                "input": null,
+                "output": null
+            }
+        ],
+        "explanation": "",
+        "constraints": []
+    },
+    {
+        "title": "Input: l1 = [], l2 = [0]",
+        "examples": [],
+        "explanation": "",
+        "constraints": "Constraints: The number of nodes in both lists is in the range [0, 50]. -100 <= Node.val <= 100 Both l1 and l2 are sorted in non-decreasing  order.\u2022 \u2022 \u2022"
+    },
+    {
+        "title": "Merge k Sorted Lists",
+        "examples": [
+            {
+                "input": "lists = [[1,4,5],[1,3,4],[2,6]]",
+                "output": "[1,1,2,3,4,4,5,6]"
+            },
+            {
+                "input": "lists = []",
+                "output": "[]"
+            },
+            {
+                "input": "lists = [[]]",
+                "output": "[]"
+            }
+        ],
+        "explanation": "The linked-lists are:",
+        "constraints": "Constraints: k == lists.length\u2022"
+    },
+    {
+        "title": "0 <= k <= 10^4",
+        "examples": [],
+        "explanation": "",
+        "constraints": []
+    },
+    {
+        "title": "Remove Nth Node From End of List",
+        "examples": [
+            {
+                "input": null,
+                "output": null
+            },
+            {
+                "input": "head = [1], n = 1",
+                "output": "[]"
+            },
+            {
+                "input": "head = [1,2], n = 1",
+                "output": "[1]"
+            }
+        ],
+        "explanation": "",
+        "constraints": []
+    },
+    {
+        "title": "Constraints:",
+        "examples": [],
+        "explanation": "",
+        "constraints": "Constraints: The number of nodes in the list is sz. 1 <= sz <= 30 0 <= Node.val <= 100 1 <= n <= sz  Follow up:  Could you do this in one pass?\u2022 \u2022 \u2022 \u2022"
+    },
+    {
+        "title": "Reorder List",
+        "examples": [
+            {
+                "input": null,
+                "output": null
+            },
+            {
+                "input": null,
+                "output": null
+            }
+        ],
+        "explanation": "",
+        "constraints": []
+    },
+    {
+        "title": "Input: head = [1,2,3,4,5]",
+        "examples": [],
+        "explanation": "",
+        "constraints": "Constraints: The number of nodes in the list is in the range [1, 5 * 104]. 1 <= Node.val <= 1000\u2022 \u2022"
+    },
+    {
+        "title": "Matrix",
+        "examples": [],
+        "explanation": "",
+        "constraints": []
+    },
+    {
+        "title": "Set Matrix Zeroes",
+        "examples": [
+            {
+                "input": null,
+                "output": null
+            },
+            {
+                "input": null,
+                "output": null
+            }
+        ],
+        "explanation": "",
+        "constraints": []
+    },
+    {
+        "title": "Input: matrix = [[0,1,2,0],[3,4,5,2],[1,3,1,5]]",
+        "examples": [],
+        "explanation": "",
+        "constraints": "Constraints: m == matrix.length n == matrix[0].length 1 <= m, n <= 200 -231 <= matrix[i][j] <= 231 - 1  Follow up: A straightforward solution using O(mn) space is probably a bad idea. A simple improvement uses O(m + n)  space, but still not the best solution. Could you devise a constant space solution?\u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022"
+    },
+    {
+        "title": "Spiral Matrix",
+        "examples": [
+            {
+                "input": null,
+                "output": null
+            },
+            {
+                "input": null,
+                "output": null
+            }
+        ],
+        "explanation": "",
+        "constraints": []
+    },
+    {
+        "title": "Input: matrix = [[1,2,3,4],[5,6,7,8],[9,10,11,12]]",
+        "examples": [],
+        "explanation": "",
+        "constraints": "Constraints: m == matrix.length n == matrix[i].length 1 <= m, n <= 10 -100 <= matrix[i][j] <= 100\u2022 \u2022 \u2022 \u2022"
+    },
+    {
+        "title": "Rotate Image",
+        "examples": [
+            {
+                "input": null,
+                "output": null
+            },
+            {
+                "input": null,
+                "output": null
+            }
+        ],
+        "explanation": "",
+        "constraints": []
+    },
+    {
+        "title": "Input: matrix = [[5,1,9,11],[2,4,8,10],[13,3,6,7],[15,14,12,16]]",
+        "examples": [
+            {
+                "input": "matrix = [[1]]",
+                "output": "[[1]]"
+            },
+            {
+                "input": "matrix = [[1,2],[3,4]]",
+                "output": "[[3,1],[4,2]]"
+            }
+        ],
+        "explanation": "",
+        "constraints": "Constraints: matrix.length == n\u2022"
+    },
+    {
+        "title": "matrix[i].length == n",
+        "examples": [],
+        "explanation": "",
+        "constraints": []
+    },
+    {
+        "title": "Word Search",
+        "examples": [
+            {
+                "input": null,
+                "output": null
+            },
+            {
+                "input": null,
+                "output": null
+            }
+        ],
+        "explanation": "",
+        "constraints": []
+    },
+    {
+        "title": "Input: board = [[\"A\",\"B\",\"C\",\"E\"],[\"S\",\"F\",\"C\",\"S\"],[\"A\",\"D\",\"E\",\"E\"]], word = \"SEE\"",
+        "examples": [
+            {
+                "input": null,
+                "output": null
+            }
+        ],
+        "explanation": "",
+        "constraints": []
+    },
+    {
+        "title": "Constraints:",
+        "examples": [],
+        "explanation": "",
+        "constraints": "Constraints: m == board.length n = board[i].length 1 <= m, n <= 6 1 <= word.length <= 15 board and word consists of only lowercase and uppercase English letters.  Follow up:  Could you use search pruning to make your solution faster with a larger board?\u2022 \u2022 \u2022 \u2022 \u2022"
+    },
+    {
+        "title": "String",
+        "examples": [],
+        "explanation": "",
+        "constraints": []
+    },
+    {
+        "title": "Longest Substring Without Repeating Characters",
+        "examples": [
+            {
+                "input": "s = \"abcabcbb\"",
+                "output": "3"
+            },
+            {
+                "input": "s = \"bbbbb\"",
+                "output": "1"
+            },
+            {
+                "input": "s = \"pwwkew\"",
+                "output": "3"
+            },
+            {
+                "input": "s = \"\"",
+                "output": "0"
+            }
+        ],
+        "explanation": "The answer is \"wke\", with the length of 3.",
+        "constraints": "Constraints: 0 <= s.length <= 5 * 104 s consists of English letters, digits, symbols and spaces.\u2022 \u2022"
+    },
+    {
+        "title": "Longest Repeating Character Replacement",
+        "examples": [
+            {
+                "input": "s = \"ABAB\", k = 2",
+                "output": "4"
+            },
+            {
+                "input": "s = \"AABABBA\", k = 1",
+                "output": "4"
+            }
+        ],
+        "explanation": "Replace the one 'A' in the middle with 'B' and form \"AABBBBA\".",
+        "constraints": "Constraints: 1 <= s.length <= 105 s consists of only uppercase English letters. 0 <= k <= s.length\u2022 \u2022 \u2022"
+    },
+    {
+        "title": "Minimum Window Substring",
+        "examples": [
+            {
+                "input": "s = \"ADOBECODEBANC\", t = \"ABC\"",
+                "output": "\"BANC\""
+            },
+            {
+                "input": "s = \"a\", t = \"a\"",
+                "output": "\"a\""
+            },
+            {
+                "input": "s = \"a\", t = \"aa\"",
+                "output": "\"\""
+            }
+        ],
+        "explanation": "Both 'a's from t must be included in the window.",
+        "constraints": "Constraints: m == s.length n == t.length\u2022 \u2022"
+    },
+    {
+        "title": "1 <= m, n\u00a0<= 105",
+        "examples": [],
+        "explanation": "",
+        "constraints": []
+    },
+    {
+        "title": "Valid Anagram",
+        "examples": [
+            {
+                "input": "s = \"anagram\", t = \"nagaram\"",
+                "output": "true"
+            },
+            {
+                "input": "s = \"rat\", t = \"car\"",
+                "output": "false"
+            }
+        ],
+        "explanation": "",
+        "constraints": "Constraints: 1 <= s.length, t.length <= 5 * 104 s and t consist of lowercase English letters.  Follow up:  What if the inputs contain Unicode characters? How would you adapt your solution to such a case?\u2022 \u2022"
+    },
+    {
+        "title": "Group Anagrams",
+        "examples": [
+            {
+                "input": "strs = [\"eat\",\"tea\",\"tan\",\"ate\",\"nat\",\"bat\"]",
+                "output": "[[\"bat\"],[\"nat\",\"tan\"],[\"ate\",\"eat\",\"tea\"]]"
+            },
+            {
+                "input": "strs = [\"\"]",
+                "output": "[[\"\"]]"
+            },
+            {
+                "input": "strs = [\"a\"]",
+                "output": "[[\"a\"]]"
+            }
+        ],
+        "explanation": "",
+        "constraints": "Constraints: 1 <= strs.length <= 104 0 <= strs[i].length <= 100 strs[i] consists of lowercase English letters.\u2022 \u2022 \u2022"
+    },
+    {
+        "title": "Valid Parentheses",
+        "examples": [
+            {
+                "input": "s = \"()\"",
+                "output": "true"
+            },
+            {
+                "input": "s = \"()[]{}\"",
+                "output": "true"
+            },
+            {
+                "input": "s = \"(]\"",
+                "output": "false"
+            },
+            {
+                "input": "s = \"([)]\"",
+                "output": "false"
+            },
+            {
+                "input": "s = \"{[]}\"",
+                "output": "true1."
+            }
+        ],
+        "explanation": "",
+        "constraints": []
+    },
+    {
+        "title": "Constraints:",
+        "examples": [],
+        "explanation": "",
+        "constraints": "Constraints: 1 <= s.length <= 104 s consists of parentheses only '()[]{}' .\u2022 \u2022"
+    },
+    {
+        "title": "Valid Palindrome",
+        "examples": [
+            {
+                "input": "s = \"A man, a plan, a canal: Panama\"",
+                "output": "true"
+            },
+            {
+                "input": "s = \"race a car\"",
+                "output": "false"
+            }
+        ],
+        "explanation": "\"raceacar\" is not a palindrome.",
+        "constraints": "Constraints: 1 <= s.length <= 2 * 105 s consists only of printable ASCII characters.\u2022 \u2022"
+    },
+    {
+        "title": "Longest Palindromic Substring",
+        "examples": [
+            {
+                "input": "s = \"babad\"",
+                "output": "\"bab\""
+            },
+            {
+                "input": "s = \"cbbd\"",
+                "output": "\"bb\""
+            },
+            {
+                "input": "s = \"a\"",
+                "output": "\"a\""
+            },
+            {
+                "input": "s = \"ac\"",
+                "output": "\"a\""
+            }
+        ],
+        "explanation": "",
+        "constraints": "Constraints: 1 <= s.length <= 1000 s consist of only digits and English letters.\u2022 \u2022"
+    },
+    {
+        "title": "Palindromic Substrings",
+        "examples": [
+            {
+                "input": "s = \"abc\"",
+                "output": "3"
+            },
+            {
+                "input": "s = \"aaa\"",
+                "output": "6"
+            }
+        ],
+        "explanation": "Six palindromic strings: \"a\", \"a\", \"a\", \"aa\", \"aa\", \"aaa\".",
+        "constraints": "Constraints: 1 <= s.length <= 1000 s consists of lowercase English letters.\u2022 \u2022"
+    },
+    {
+        "title": "Encode and Decode Strings",
+        "examples": [],
+        "explanation": "",
+        "constraints": []
+    },
+    {
+        "title": "Maximum Depth of Binary Tree",
+        "examples": [
+            {
+                "input": "root = [3,9,20,null,null,15,7]",
+                "output": "3"
+            },
+            {
+                "input": "root = [1,null,2]",
+                "output": "2"
+            },
+            {
+                "input": "root = []",
+                "output": "0"
+            },
+            {
+                "input": "root = [0]",
+                "output": "1"
+            }
+        ],
+        "explanation": "",
+        "constraints": "Constraints: The number of nodes in the tree is in the range [0, 104]. -100 <= Node.val <= 100\u2022 \u2022"
+    },
+    {
+        "title": "Same Tree",
+        "examples": [
+            {
+                "input": null,
+                "output": null
+            },
+            {
+                "input": null,
+                "output": null
+            }
+        ],
+        "explanation": "",
+        "constraints": []
+    },
+    {
+        "title": "Input: p = [1,2], q = [1,null,2]",
+        "examples": [
+            {
+                "input": null,
+                "output": null
+            }
+        ],
+        "explanation": "",
+        "constraints": "Constraints: The number of nodes in both trees is in the range [0, 100] . -104 <= Node.val <= 104\u2022 \u2022"
+    },
+    {
+        "title": "Invert Binary Tree",
+        "examples": [
+            {
+                "input": null,
+                "output": null
+            },
+            {
+                "input": null,
+                "output": null
+            },
+            {
+                "input": null,
+                "output": null
+            }
+        ],
+        "explanation": "",
+        "constraints": []
+    },
+    {
+        "title": "Input: root = []",
+        "examples": [],
+        "explanation": "",
+        "constraints": "Constraints: The number of nodes in the tree is in the range [0, 100] . -100 <= Node.val <= 100\u2022 \u2022"
+    },
+    {
+        "title": "Binary Tree Maximum Path Sum",
+        "examples": [
+            {
+                "input": null,
+                "output": null
+            },
+            {
+                "input": null,
+                "output": null
+            }
+        ],
+        "explanation": "The optimal path is 2 -> 1 -> 3 with a path sum of 2 + 1 + 3 = 6.",
+        "constraints": []
+    },
+    {
+        "title": "Input: root = [-10,9,20,null,null,15,7]",
+        "examples": [],
+        "explanation": "The optimal path is 15 -> 20 -> 7 with a path sum of 15 + 20 + 7 = 42.",
+        "constraints": "Constraints: The number of nodes in the tree is in the range [1, 3 * 104]. -1000 <= Node.val <= 1000\u2022 \u2022"
+    },
+    {
+        "title": "Binary Tree Level Order Traversal",
+        "examples": [
+            {
+                "input": null,
+                "output": null
+            },
+            {
+                "input": "root = [1]",
+                "output": "[[1]]"
+            },
+            {
+                "input": null,
+                "output": null
+            }
+        ],
+        "explanation": "",
+        "constraints": []
+    },
+    {
+        "title": "Input: root = []",
+        "examples": [],
+        "explanation": "",
+        "constraints": "Constraints: The number of nodes in the tree is in the range [0, 2000] . -1000 <= Node.val <= 1000\u2022 \u2022"
+    },
+    {
+        "title": "Serialize and Deserialize Binary Tree",
+        "examples": [
+            {
+                "input": "root = [1,2,3,null,null,4,5]",
+                "output": "[1,2,3,null,null,4,5]"
+            },
+            {
+                "input": "root = []",
+                "output": "[]"
+            },
+            {
+                "input": "root = [1]",
+                "output": "[1]"
+            },
+            {
+                "input": "root = [1,2]",
+                "output": "[1,2]"
+            }
+        ],
+        "explanation": "",
+        "constraints": []
+    },
+    {
+        "title": "Constraints:",
+        "examples": [],
+        "explanation": "",
+        "constraints": "Constraints: The number of nodes in the tree is in the range [0, 104]. -1000 <= Node.val <= 1000\u2022 \u2022"
+    },
+    {
+        "title": "Subtree of Another Tree",
+        "examples": [
+            {
+                "input": null,
+                "output": null
+            }
+        ],
+        "explanation": "",
+        "constraints": []
+    },
+    {
+        "title": "Input: root = [3,4,5,1,2], subRoot = [4,1,2]",
+        "examples": [
+            {
+                "input": null,
+                "output": null
+            }
+        ],
+        "explanation": "",
+        "constraints": []
+    },
+    {
+        "title": "Constraints:",
+        "examples": [],
+        "explanation": "",
+        "constraints": "Constraints: The number of nodes in the root tree is in the range [1, 2000] . The number of nodes in the subRoot tree is in the range [1, 1000] . -104 <= root.val <= 104 -104 <= subRoot.val <= 104\u2022 \u2022 \u2022 \u2022"
+    },
+    {
+        "title": "Construct Binary Tree from Preorder and Inorder Traversal",
+        "examples": [
+            {
+                "input": null,
+                "output": null
+            },
+            {
+                "input": "preorder = [-1], inorder = [-1]",
+                "output": "[-1]"
+            }
+        ],
+        "explanation": "",
+        "constraints": []
+    },
+    {
+        "title": "Constraints:",
+        "examples": [],
+        "explanation": "",
+        "constraints": "Constraints: 1 <= preorder.length <= 3000 inorder.length == preorder.length -3000 <= preorder[i], inorder[i] <= 3000 preorder  and inorder consist of unique  values. Each value of inorder also appears in preorder . preorder  is guaranteed  to be the preorder traversal of the tree. inorder is guaranteed  to be the inorder traversal of the tree.\u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022"
+    },
+    {
+        "title": "Validate Binary Search Tree",
+        "examples": [
+            {
+                "input": null,
+                "output": null
+            },
+            {
+                "input": null,
+                "output": null
+            }
+        ],
+        "explanation": "",
+        "constraints": []
+    },
+    {
+        "title": "Input: root = [5,1,4,null,null,3,6]",
+        "examples": [],
+        "explanation": "The root node's value is 5 but its right child's value is 4.",
+        "constraints": "Constraints: The number of nodes in the tree is in the range [1, 104]. -231 <= Node.val <= 231 - 1\u2022 \u2022"
+    },
+    {
+        "title": "Kth Smallest Element in a BST",
+        "examples": [
+            {
+                "input": null,
+                "output": null
+            },
+            {
+                "input": null,
+                "output": null
+            }
+        ],
+        "explanation": "",
+        "constraints": []
+    },
+    {
+        "title": "Input: root = [5,3,6,2,4,null,null,1], k = 3",
+        "examples": [],
+        "explanation": "",
+        "constraints": "Constraints: The number of nodes in the tree is n. 1 <= k <= n <= 104 0 <= Node.val <= 104  Follow up:  If the BST is modified often (i.e., we can do insert and delete operations) and you need to find the kth smallest frequently, how would you optimize?\u2022 \u2022 \u2022"
+    },
+    {
+        "title": "Lowest Common Ancestor of a Binary Search Tree",
+        "examples": [
+            {
+                "input": null,
+                "output": null
+            },
+            {
+                "input": null,
+                "output": null
+            }
+        ],
+        "explanation": "The LCA of nodes 2 and 8 is 6.",
+        "constraints": []
+    },
+    {
+        "title": "Input: root = [6,2,8,0,4,7,9,null,null,3,5], p = 2, q = 4",
+        "examples": [
+            {
+                "input": "root = [2,1], p = 2, q = 1",
+                "output": "2"
+            }
+        ],
+        "explanation": "The LCA of nodes 2 and 4 is 2, since a node can be a descendant of itself",
+        "constraints": "Constraints: The number of nodes in the tree is in the range [2, 105]. -109 <= Node.val <= 109 All Node.val  are unique . p != q p and q will exist in the BST.\u2022 \u2022 \u2022 \u2022 \u2022"
+    },
+    {
+        "title": "Implement Trie (Prefix Tree)",
+        "examples": [
+            {
+                "input": null,
+                "output": null
+            }
+        ],
+        "explanation": "",
+        "constraints": []
+    },
+    {
+        "title": "Constraints:",
+        "examples": [],
+        "explanation": "",
+        "constraints": "Constraints: 1 <= word.length, prefix.length <= 2000 word and prefix consist only of lowercase English letters. At most 3 * 104 calls in total  will be made to insert, search, and startsWith .\u2022 \u2022 \u2022"
+    },
+    {
+        "title": "Word Search II",
+        "examples": [
+            {
+                "input": "board = [[\"o\",\"a\",\"a\",\"n\"],[\"e\",\"t\",\"a\",\"e\"],[\"i\",\"h\",\"k\",\"r\"],[\"i\",\"f\",\"l\",\"v\"]],",
+                "output": null
+            },
+            {
+                "input": null,
+                "output": null
+            }
+        ],
+        "explanation": "",
+        "constraints": "Constraints: m == board.length n == board[i].length\u2022 \u2022"
+    },
+    {
+        "title": "1 <= m, n <= 12",
+        "examples": [],
+        "explanation": "",
+        "constraints": []
+    },
+    {
+        "title": "Heap",
+        "examples": [],
+        "explanation": "",
+        "constraints": []
+    },
+    {
+        "title": "Merge k Sorted Lists",
+        "examples": [
+            {
+                "input": "lists = [[1,4,5],[1,3,4],[2,6]]",
+                "output": "[1,1,2,3,4,4,5,6]"
+            },
+            {
+                "input": "lists = []",
+                "output": "[]"
+            },
+            {
+                "input": "lists = [[]]",
+                "output": "[]"
+            }
+        ],
+        "explanation": "The linked-lists are:",
+        "constraints": "Constraints: k == lists.length\u2022"
+    },
+    {
+        "title": "0 <= k <= 10^4",
+        "examples": [],
+        "explanation": "",
+        "constraints": []
+    },
+    {
+        "title": "Top K Frequent Elements",
+        "examples": [
+            {
+                "input": "nums = [1,1,1,2,2,3], k = 2",
+                "output": "[1,2]"
+            },
+            {
+                "input": "nums = [1], k = 1",
+                "output": "[1]"
+            }
+        ],
+        "explanation": "",
+        "constraints": "Constraints: 1 <= nums.length <= 105 k is in the range [1, the number of unique elements in the array] . It is guaranteed  that the answer is unique .  Follow up:  Your algorithm's time complexity must be better than O(n log n) , where n is the array's size.\u2022 \u2022 \u2022"
+    },
+    {
+        "title": "Find Median from Data Stream",
+        "examples": [
+            {
+                "input": null,
+                "output": null
+            }
+        ],
+        "explanation": "",
+        "constraints": []
+    },
+    {
+        "title": "Constraints:",
+        "examples": [],
+        "explanation": "",
+        "constraints": "Constraints: -105 <= num <= 105 There will be at least one element in the data structure before calling findMedian . At most 5 * 104 calls will be made to addNum and findMedian .  Follow up: If all integer numbers from the stream are in the range [0, 100] , how would you optimize your solution? If 99% of all integer numbers from the stream are in the range [0, 100] , how would you optimize your solution?\u2022 \u2022 \u2022 \u2022 \u2022"
+    }
+]
