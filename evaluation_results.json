@@ -1,0 +1,242 @@
+[
+    {
+        "query": "Maximize the Number of Target Nodes After Connecting Trees II Smallest Divisible Digit Product II Tree Depth-First Search Breadth-First Search",
+        "expected_titles": [
+            "Maximize the Number of Target Nodes After Connecting Trees II",
+            "Smallest Divisible Digit Product II",
+            "Identify the Largest Outlier in an Array"
+        ],
+        "top_recommended_title": "Find X-Sum of All K-Long Subarrays I",
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+    },
+    {
+        "query": "Find the Original Typed String II Maximum Number of Moves to Kill All Pawns String Dynamic Programming Prefix Sum",
+        "expected_titles": [
+            "Find the Original Typed String II",
+            "Maximum Number of Moves to Kill All Pawns",
+            "Minimum Array Sum"
+        ],
+        "top_recommended_title": "Find X-Sum of All K-Long Subarrays I",
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+    },
+    {
+        "query": "Smallest Divisible Digit Product II Sorted GCD Pair Queries Math String Backtracking Greedy Number Theory",
+        "expected_titles": [
+            "Smallest Divisible Digit Product II",
+            "Sorted GCD Pair Queries",
+            "First Letter Capitalization II"
+        ],
+        "top_recommended_title": "Find X-Sum of All K-Long Subarrays I",
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+    },
+    {
+        "query": "Smallest Number With All Set Bits Find the Number of Possible Ways for an Event Math Bit Manipulation",
+        "expected_titles": [
+            "Smallest Number With All Set Bits",
+            "Find the Number of Possible Ways for an Event",
+            "Maximum Frequency of an Element After Performing Operations I"
+        ],
+        "top_recommended_title": "Find X-Sum of All K-Long Subarrays I",
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+    },
+    {
+        "query": "Maximum Area Rectangle With Point Constraints I Adjacent Increasing Subarrays Detection I Array Math Binary Indexed Tree Segment Tree Geometry Sorting Enumeration",
+        "expected_titles": [
+            "Maximum Area Rectangle With Point Constraints I",
+            "Adjacent Increasing Subarrays Detection I",
+            "Maximum Possible Number by Binary Concatenation"
+        ],
+        "top_recommended_title": "Find X-Sum of All K-Long Subarrays I",
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+    },
+    {
+        "query": "Select Cells in Grid With Maximum Score Find the Maximum Sequence Value of Array Array Dynamic Programming Bit Manipulation Matrix Bitmask",
+        "expected_titles": [
+            "Select Cells in Grid With Maximum Score",
+            "Find the Maximum Sequence Value of Array",
+            "Find the Maximum Number of Fruits Collected"
+        ],
+        "top_recommended_title": "Find X-Sum of All K-Long Subarrays I",
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+    },
+    {
+        "query": "Maximum Possible Number by Binary Concatenation Transformed Array Array Bit Manipulation Enumeration",
+        "expected_titles": [
+            "Maximum Possible Number by Binary Concatenation",
+            "Transformed Array",
+            "Remove Methods From Project"
+        ],
+        "top_recommended_title": "Find X-Sum of All K-Long Subarrays I",
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+    },
+    {
+        "query": "Find Minimum Time to Reach Last Room II Adjacent Increasing Subarrays Detection I Array Graph Heap (Priority Queue) Matrix Shortest Path",
+        "expected_titles": [
+            "Find Minimum Time to Reach Last Room II",
+            "Adjacent Increasing Subarrays Detection I",
+            "Zero Array Transformation II"
+        ],
+        "top_recommended_title": "Find the Maximum Number of Fruits Collected",
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+    },
+    {
+        "query": "Digit Operations to Make Two Integers Equal Find the Number of Possible Ways for an Event Math Graph Heap (Priority Queue) Number Theory Shortest Path",
+        "expected_titles": [
+            "Digit Operations to Make Two Integers Equal",
+            "Find the Number of Possible Ways for an Event",
+            "Construct the Minimum Bitwise Array I"
+        ],
+        "top_recommended_title": "Find the Maximum Number of Fruits Collected",
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+    },
+    {
+        "query": "Minimum Element After Replacement With Digit Sum Find the Original Typed String I Array Math",
+        "expected_titles": [
+            "Minimum Element After Replacement With Digit Sum",
+            "Find the Original Typed String I",
+            "Find Minimum Time to Reach Last Room I"
+        ],
+        "top_recommended_title": "Find X-Sum of All K-Long Subarrays I",
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+    },
+    {
+        "query": "Smallest Divisible Digit Product II Adjacent Increasing Subarrays Detection II Math String Backtracking Greedy Number Theory",
+        "expected_titles": [
+            "Smallest Divisible Digit Product II",
+            "Adjacent Increasing Subarrays Detection II",
+            "Minimum Array Sum"
+        ],
+        "top_recommended_title": "Find X-Sum of All K-Long Subarrays I",
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+    },
+    {
+        "query": "Find Minimum Time to Reach Last Room I Find Subtree Sizes After Changes Array Graph Heap (Priority Queue) Matrix Shortest Path",
+        "expected_titles": [
+            "Find Minimum Time to Reach Last Room I",
+            "Find Subtree Sizes After Changes",
+            "Construct the Minimum Bitwise Array II"
+        ],
+        "top_recommended_title": "Find the Maximum Number of Fruits Collected",
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+    },
+    {
+        "query": "Find the Occurrence of First Almost Equal Substring Identify the Largest Outlier in an Array String String Matching",
+        "expected_titles": [
+            "Find the Occurrence of First Almost Equal Substring",
+            "Identify the Largest Outlier in an Array",
+            "Rearrange K Substrings to Form Target String"
+        ],
+        "top_recommended_title": "Count The Number of Winning Sequences",
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+    },
+    {
+        "query": "Transformed Array Minimize the Maximum Adjacent Element Difference Array Simulation",
+        "expected_titles": [
+            "Transformed Array",
+            "Minimize the Maximum Adjacent Element Difference",
+            "Maximum Area Rectangle With Point Constraints I"
+        ],
+        "top_recommended_title": "Find X-Sum of All K-Long Subarrays I",
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+    },
+    {
+        "query": "Maximum Points Tourist Can Earn Find the Sequence of Strings Appeared on the Screen Array Dynamic Programming Matrix",
+        "expected_titles": [
+            "Maximum Points Tourist Can Earn",
+            "Find the Sequence of Strings Appeared on the Screen",
+            "Transformed Array"
+        ],
+        "top_recommended_title": "Find the Sequence of Strings Appeared on the Screen",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+    },
+    {
+        "query": "Minimum Operations to Make Array Values Equal to K Zero Array Transformation III Array Hash Table",
+        "expected_titles": [
+            "Minimum Operations to Make Array Values Equal to K",
+            "Zero Array Transformation III",
+            "Stone Removal Game"
+        ],
+        "top_recommended_title": "Find X-Sum of All K-Long Subarrays I",
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+    },
+    {
+        "query": "Find X-Sum of All K-Long Subarrays I Smallest Divisible Digit Product II Array Hash Table Sliding Window Heap (Priority Queue)",
+        "expected_titles": [
+            "Find X-Sum of All K-Long Subarrays I",
+            "Smallest Divisible Digit Product II",
+            "Sum of Good Subsequences"
+        ],
+        "top_recommended_title": "Find X-Sum of All K-Long Subarrays I",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+    },
+    {
+        "query": "Identify the Largest Outlier in an Array Find the Original Typed String II Array Hash Table Counting Enumeration",
+        "expected_titles": [
+            "Identify the Largest Outlier in an Array",
+            "Find the Original Typed String II",
+            "Find X-Sum of All K-Long Subarrays II"
+        ],
+        "top_recommended_title": "Find X-Sum of All K-Long Subarrays I",
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+    },
+    {
+        "query": "Zero Array Transformation III Select Cells in Grid With Maximum Score Array Greedy Sorting Heap (Priority Queue) Prefix Sum",
+        "expected_titles": [
+            "Zero Array Transformation III",
+            "Select Cells in Grid With Maximum Score",
+            "Find X-Sum of All K-Long Subarrays II"
+        ],
+        "top_recommended_title": "Find the Maximum Number of Fruits Collected",
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+    },
+    {
+        "query": "Zero Array Transformation I Find Subtree Sizes After Changes Array Prefix Sum",
+        "expected_titles": [
+            "Zero Array Transformation I",
+            "Find Subtree Sizes After Changes",
+            "Find Minimum Time to Reach Last Room I"
+        ],
+        "top_recommended_title": "Transformed Array",
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+    }
+]
